@@ -20,7 +20,7 @@
 	 * @param low
 	 * @param high 
 	 * @return true or false
-	 *          当num位于[low, high]区间内返回true；否则，false
+	 * 	当num位于[low, high]区间内返回true；否则，false
 	 * 
 	 */
 **private boolean isOutOfRange(int num, int low, int high)；**
@@ -30,11 +30,11 @@
 	 * @author hq
 	 * @param str
 	 * @param sp
-	 *         分隔符
+	 *      分隔符
 	 * @param len 
-	 * 		   str经过sp分隔后得到的字符串数组长度 
+	 * 	str经过sp分隔后得到的字符串数组长度 
 	 * @return the array of ints
-	 * 		　  str经过sp分隔后得到的字符串数组,转换得到的int数组  
+	 * 	str经过sp分隔后得到的字符串数组,转换得到的int数组  
 	 * 
 	 */
 **private int[] getIntFromString(String str, String sp, int len)；**
@@ -45,9 +45,9 @@
 	 * @param rows
 	 * @param cols
 	 * @return the list of strings
-	 * 			list有（2*rows+1）行，
-	 * 				偶数行字符串: "[W]" + " [W] [W]" * cols，
-	 * 				奇数行字符串："[W]" + " [R] [W]" * cols
+	 * 	list有（2*rows+1）行，
+	 *	  偶数行字符串: "[W]" + " [W] [W]" * cols，
+	 *	  奇数行字符串："[W]" + " [R] [W]" * cols
 	 * 
 	 */
 **private List\<String> initGrid(int rows, int cols);**
@@ -57,9 +57,9 @@
 	 * @author hq
 	 * @param str
 	 * @param pos
-	 * 			需要设置联通的位置
+	 * 	需要设置连通的位置
 	 * @return string
-	 * 			连通后的字符串str
+	 * 	连通后的字符串str
 	 * 
 	 */
 **private String setConn(String str, int pos);**
@@ -70,9 +70,9 @@
 	 * @param size
 	 * @param Conn
 	 * @param renderGrid
-	 * 			初始状态，还未连通过的渲染网格
+	 * 	初始状态，还未连通过的渲染网格
 	 * @return the list of string
-	 * 			连通后的renderGrid
+	 * 	连通后的renderGrid
 	 * 
 	 */
 **private List\<String> connRenderGrid(final int[] size, final String Conn, List<String> renderGrid);**
